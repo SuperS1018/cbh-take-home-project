@@ -1,11 +1,3 @@
-/** Refactoring Explaination                                           */
-/** I move contants to the top so it will be easier to read.           */
-/** hashEncoding function should be stand alone because it             */
-/** will be easy to test if encoding is working.                       */
-/** getCandidateByEvent is also for the ease of testing.               */
-/** Now we can see all candidate is on the deterministicPartitionKey.  */
-
-
 const crypto = require("crypto");
 const TRIVIAL_PARTITION_KEY = "0";
 const MAX_PARTITION_KEY_LENGTH = 256;

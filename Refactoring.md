@@ -9,3 +9,4 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+I moved contants to the top so it will be easier to read. Another better solution is to create a `contants.js` to store contants. I created `hashEncoding` and `getCandidateByEvent` for the ease of testing. `hashEncoding` is to convert data to hash codes, and `getCandidateByEvent` is to get candidate from event. After refactor we can see all candidates are in the `deterministicPartitionKey`.
